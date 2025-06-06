@@ -1,0 +1,62 @@
+id: '55d46a0e-91d8-44cc-a4fb-f1b5efeaa634'
+name: 'Person_EmailAddress'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '5982f42f-fa22-4726-83b6-9188187d02ff'
+    name: 'BUSINESSENTITYID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c4ba26eb-242f-4c92-8290-2455536d8267'
+      precision: 38
+      scale: 0
+  - id: '44c63621-0a02-4fa1-a83f-f03b1ba79056'
+    name: 'EMAILADDRESSID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'c4ba26eb-242f-4c92-8290-2455536d8267'
+      precision: 38
+      scale: 0
+  - id: '27a75fbf-3097-49a7-932a-f5b2799c2b89'
+    name: 'EMAILADDRESS'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+  - id: '2227dcdf-2f60-46f6-9203-11948f126bb2'
+    name: 'ROWGUID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'b3adead7-b6ee-401e-8ff1-9df96a756c3b'
+  - id: '10162eec-ec8e-4020-8755-08be19075ecd'
+    name: 'MODIFIEDDATE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '80258a51-d5c1-45b2-8b20-9308969a4942'
+tags:
+  - '$discovery#id#ecdc5961-36fb-432a-9337-ab521a1552af'
+  - '$initial#name#person_emailaddress'
+  - '$sourcesystem#id#4950e25e-3351-4e1a-87b8-29c750b841e6'

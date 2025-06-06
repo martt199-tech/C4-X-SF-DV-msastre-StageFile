@@ -9,4 +9,5 @@ sourceSystems:
   - id: '4950e25e-3351-4e1a-87b8-29c750b841e6'
     name: 'paequetConn'
     description: ''
+    activeDiscovery: 'ecdc5961-36fb-432a-9337-ab521a1552af'
     sourceSystemTypeId: '874926da-0cf2-450f-b761-a0c9a85646f6'

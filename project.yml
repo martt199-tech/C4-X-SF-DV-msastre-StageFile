@@ -1,0 +1,7 @@
+id: 'fd238fab-5947-410e-9bfc-08dd9c3f3d0a'
+name: 'C4-X-SF-DV-Email-StageFile'
+description: ' Stage File project containing the person email data from a Parquetfile'
+version: 'v1.5'
+configuration:
+  id: 'biGENIUS.Implementation.Generator.Stage.Snowflake.File'
+  version: '1.9.3'

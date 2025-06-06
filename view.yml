@@ -6,6 +6,7 @@ views:
     type: 'data-pipe'
     modelObjects:
       - id: '55d46a0e-91d8-44cc-a4fb-f1b5efeaa634'
+      - id: '53c70b7b-7321-4832-b096-ac55fb4b0c97'
   - id: '0c2dee8a-1f17-4151-86fe-d272b2bd29c3'
     name: 'Datamodel View 1'
     description: 'Default view for data model.'

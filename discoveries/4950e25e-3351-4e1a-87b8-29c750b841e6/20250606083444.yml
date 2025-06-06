@@ -1,0 +1,68 @@
+id: 'ecdc5961-36fb-432a-9337-ab521a1552af'
+name: 'connParqut'
+appVersion: '1.4.1'
+timestamp: '2025-06-06T08:34:44+00:00'
+sourceObjects:
+  - name: 'Person_EmailAddress'
+    terms:
+      - name: 'BUSINESSENTITYID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'number'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'EMAILADDRESSID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'number'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'EMAILADDRESS'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'varchar'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ROWGUID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'varchar'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'MODIFIEDDATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp_ntz'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+    objectType: {}
+sourceSystem:
+  type: 'Parquet'
